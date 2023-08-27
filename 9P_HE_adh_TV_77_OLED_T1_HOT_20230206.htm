@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- A little more standards friendly. utf-8 works for most cases -->
+<meta name="viewport" content="width=device-width" />
+<!-- Forcing initial-scale shouldn't be necessary -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- Use the latest (edge) version of IE rendering engine -->
+<meta name="x-apple-disable-message-reformatting" />
+<!-- Disable auto-scale in iOS 10 Mail entirely -->
+<title>SAMSUNG</title>
+<!-- The title tag shows in email notifications, like Android 4.4. -->
+
+<!-- CSS Reset -->
+<style type="text/css">
+
+    
+ 
+/* Star Rating Survey CSS BEGIN */
+<%@ include view='PVIEW677' %>
+/* Star Rating Survey CSS END */
+    
+    
+/*prevent affecting line height:*/
+
+    
+/* What it does: Remove spaces around the email design added by some email clients. */
+/* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+
+html, body {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/* What it does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+    margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table, td {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+    margin: 0 auto !important;
+}
+table table table {
+    table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+    -ms-interpolation-mode: bicubic;
+}
+/* Affects Address universal block, stopping blue linking*/
+.addressColor {
+    color: #6d6e71 !important;
+}
+/* Prevents Links from Changing Color after Clicking. Mostly for Outlook*/
+a:visited {
+    color: #3a3a3a !important;
+}
+span.msoHyperlink {
+    mso-style-priority: 99;
+    color: inherit;
+}
+span.msoHyperlinkFollowed {
+    mso-style-priority: 99;
+    color: inherit;
+}
+/* What it does: A work-around for email clients meddling in triggered links. */
+
+.x-gmail-data-detectors,    /* Gmail */ .x-gmail-data-detectors *, .aBn {
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+/*Fix for Outlook.com and 365 gaps*/
+div, button {
+    vertical-align: bottom;
+}
+
+@media screen and (max-width: 480px) {
+div.mobileBorder {
+    border-left: #f4f4f4 solid 10px !important;
+    border-right: #f4f4f4 solid 10px !important;
+}
+td.headline, a.headline {
+    font-size: 5.9vw !important;
+    line-height: 7.6vw !important;
+}
+td.headline {
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+}
+td.subCopy, a.subCopy {
+    font-size: 3.5vw !important;
+    line-height: 5.4vw !important;
+}
+td.subCopy {
+    padding: 0px 25px !important;
+}
+td.subCopy.modules {
+    padding: 0px 25px 10px !important;
+}
+/* Add custom style classes for one-off elements */
+td.custom1, a.custom1 {
+/* Add custome VW font overrides here */
+}
+}
+</style>
+<style>
+/* What it does: A work-around for iOS meddling in triggered links. Gmail will strip this. */
+*[x-apple-data-detectors]  /* iOS */ {
+    color:inherit !important;
+    text-decoration: none !important;
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+</style>
+ 
+
+
+<%@ include view='PVIEW230' %>
+
+<%
+   var preheader = "Pre-order today to get free installation on your new 77&Prime;<span>&nbsp;</span>OLED!";
+   var firstModuleAlt = "The future of Samsung OLED, brighter than ever before&sup1;"
+   
+%>
+    
+</head>
+    
+<body width="100%" bgcolor="#f4f4f4" style="margin:0; padding:0; width:100% !important;">
+<center style="width:100%; background:#f4f4f4;">  
+  
+  <!-- Visually Hidden Preheader Text : BEGIN -->
+  <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;"> <%= preheader %> - <%= firstModuleAlt %> 
+    <!--This is for the five Pixel Tracking --> 
+    <img src="https://samsungelectronicsamericainc.demdex.net/event?d_cid_ic=my_samus_crm%01<%=recipient.BPNumber%>%011&d_cid_ic=AdobeCampaignID%01<%=recipient.BPNumber%>%011&d_sid=19401505" width="0" height="0" />
+    <%@ include view='PVIEW24' %>
+  </div>
+  <!-- Visually Hidden Preheader Text : END -->    
+  
+  <div style="max-width:480px; margin:auto;" class="mobileBorder">
+    <!--[if mso]>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="480" align="center">
+            <tr>
+            <td>
+            <![endif]-->
+
+  <!-- PreHeader : BEGIN -->
+	  
+	
+	<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width:480px;">
+      <tr>
+        <td style="padding:20px 0 20px 0px; text-align:center;font:11px Arial, Helvetica, sans-serif; mso-line-height-rule:exactly; line-height:14px; color:#727272;"> <a _label="00_03_HE-TV_77inOLEDPreOrder1_preheader_static" href="https://www.samsung.com/us/televisions-home-theater/tvs/oled-tvs/77-class-s95c-oled-4k-smart-tv-2023-qn77s95cafxza/?marsLinkCategory=tv:other&<%= tracking %>" target="_blank" style="color:#727272; text-decoration:underline;"> <%= preheader %> </a> </td>
+      </tr>
+    </table>
+		 	
+		 
+    <!-- PreHeader : END --> 
+		
+	
+    <!-- Email Body : BEGIN -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="background-color:#f4f4f4; padding:0;">
+      <tr>
+        <td align="left" valign="top" bgcolor="#f4f4f4" style="background-color:#f4f4f4; color:#000000;">
+         <!-- Logo, Flush : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+            <tr>
+              <td> <a _label="00_03_HE-TV_77inOLEDPreOrder1_brand_zzz_logo_static" href="https://www.samsung.com/us/?marsLinkCategory=tv:other&<%= tracking %>" target="_blank" style="color:#000000;"><img src="https://res.info.samsungusa.com/res/samsung_mkt_prod1/9P_HE_adh_TV_77_OLED_T1_HOT_20230206_Logo.png" width="480" alt="SAMSUNG" border="0" style="display:block; width:100%; max-width:480px;" /></a> </td>
+            </tr>
+          </table>
+          <!-- Logo, Flush : END --> 
+      
+          <!-- HR_Module : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#000000; padding:0;"> <a _label="01_03_HE-TV_77inOLEDPreOrder1_image_animated" href="https://www.samsung.com/us/televisions-home-theater/tvs/oled-tvs/77-class-s95c-oled-4k-smart-tv-2023-qn77s95cafxza/?marsLinkCategory=tv:other&<%= tracking %>" target="_blank" style="color:#000000;"> <img src="https://res.info.samsungusa.com/res/samsung_mkt_prod1/9P_HE_adh_TV_77_OLED_T1_20230206_Mod1_update.png" width="480" alt="<%= firstModuleAlt %> - Pre-order the new 77&Prime; Class S95C OLED 4K Smart TV today and get installation on us!&sup5;" border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+			
+			
+		   <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#000000; padding:0;"> <a _label="01_03_HE-TV_77inOLEDPreOrder1_CTA_animated" href="https://www.samsung.com/us/televisions-home-theater/tvs/oled-tvs/77-class-s95c-oled-4k-smart-tv-2023-qn77s95cafxza/?marsLinkCategory=tv:other&<%= tracking %>" target="_blank" style="color:#000000;"> <img src="https://res.info.samsungusa.com/res/samsung_mkt_prod1/9P_HE_adh_TV_77_OLED_T1_HOT_20230206_Mod1_CTA.png" width="480" alt="Pre-order now" border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+			
+			
+			<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#000000; padding:0;"> <a _label="01_03_HE-TV_77inOLEDPreOrder1_image_animated" href="https://www.samsung.com/us/televisions-home-theater/tvs/oled-tvs/77-class-s95c-oled-4k-smart-tv-2023-qn77s95cafxza/?marsLinkCategory=tv:other&<%= tracking %>" target="_blank" style="color:#000000;"> <img src="https://res.info.samsungusa.com/res/samsung_mkt_prod1/9P_HE_adh_TV_77_OLED_T1_HOT_20230206_Hero.png" width="480" alt="Turn every seat in the house into the best seat with the bold contrast, dramatic sound and vibrant colors of Samsung OLED." border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+        
+          <!-- HR_Module : END --> 
+			
+          <!-- 10px Space : BEGIN -->
+         <%@ include view='PVIEW494' %>
+
+         <!-- 10px Space : END -->
+			
+			
+         <!-- MD2_Module : BEGIN -->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#000000; padding:0;"> <a _label="02_03_HE-TV_77inOLEDPreOrder1_image_static" href="https://www.samsung.com/us/televisions-home-theater/tvs/oled-tvs/77-class-s95c-oled-4k-smart-tv-2023-qn77s95cafxza/?marsLinkCategory=tv:other&<%= tracking %>" target="_blank" style="color:#000000;"> <img src="https://res.info.samsungusa.com/res/samsung_mkt_prod1/9P_HE_adh_TV_77_OLED_T1_HOT_20230206_Mod2.png" width="480" alt="The S95C at a glance - Samsung OLED Technology - Infinity One Design with Slim One Connect - Quantum HDR OLED+ - Neural Quantum Processor with 4K Upscaling&sup2;" border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+         
+          <!-- MD2_Module : END --> 	
+	
+        <!-- 10px Space : BEGIN -->
+        <%@ include view='PVIEW494' %>
+
+        <!-- 10px Space : END -->
+	
+          <!-- MD3_Module : BEGIN -->
+	 		
+           <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#000000; padding:0;"> <a _label="03_03_HE-TV_77inOLEDPreOrder1_image_static" href="https://www.samsung.com/us/samsung-advantage/?marsLinkCategory=tv:other&<%= tracking %>" target="_blank" style="color:#000000;"> <img src="https://res.info.samsungusa.com/res/samsung_mkt_prod1/9P_HE_adh_TV_77_OLED_T1_20230206_SA.png" width="480" alt="Shop at samsung.com now to experience The Samsung Advantage - 0% APR financing with $0 down&sup3; - Seamless service with free delivery and hassle-free returns - Pay in 4 with Affirm - No impact to credit score. No fees & $0 due today&sup4;" border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+			
+			
+			 <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="max-width:480px; background-color:#f4f4f4;" width="100%">
+            <tr>
+              <td align="left" valign="top" style="font:12px Arial, Helvetica, sans-serif; color:#000000; padding:0;"> <a _label="03_03_HE-TV_77inOLEDPreOrder1_image_static" href="https://www.samsung.com/us/televisions-home-theater/tvs/oled-tvs/77-class-s95c-oled-4k-smart-tv-2023-qn77s95cafxza/?marsLinkCategory=tv:other&<%= tracking %>" target="_blank" style="color:#000000;"> <img src="https://res.info.samsungusa.com/res/samsung_mkt_prod1/9P_HE_adh_TV_77_OLED_T1_20230206_Mod3_02.png" width="480" alt="Shop at samsung.com now to experience The Samsung Advantage - 0% APR financing with $0 down&sup3; - Seamless service with free delivery and hassle-free returns - Pay in 4 with Affirm - No impact to credit score. No fees & $0 due today&sup4;" border="0" style="display:block; width:100%; max-width:480px;" /> </a> </td>
+            </tr>
+          </table>
+                    
+          <!-- MD3_Module : END --> 
+		
+ 				
+	  <!-- 10px Space : BEGIN -->
+<%@ include view='PVIEW494' %>
+<!-- 10px Space : END -->
+
+     
+         </td>
+      </tr>
+    </table>              
+    <!-- Email Body : END -->
+	
+    <!-- Social Footers : BEGIN -->
+    <%@ include view='PVIEW774' %>
+    <!-- Social Footers : End --> 
+
+  
+    <!-- Email Footer : BEGIN -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 480px;">
+      <tr>
+        <td style="padding: 0px 10px 40px 10px;width: 100%;font-size: 12px; font-family: Arial, Helvetica, sans-serif; mso-height-rule: exactly; line-height:16px; text-align: left; color: #727272;">
+		
+<sup style="line-height: 0px;">1</sup>As compared to Samsung 2022 OLED<span>&nbsp;</span>TVs.<br/><br/>
+<sup style="line-height: 0px;">2</sup>Utilizes AI-Based<span>&nbsp;</span>formulas.<br/><br/>
+<sup style="line-height: 0px;">3</sup>0% APR for 24, 36, 40, 48 Months with Equal Payments: Available on purchases of select products charged to a Samsung Financing account. Minimum purchase: $50. 0% APR from date of eligible purchase until paid in full. Estimated monthly payment equals the eligible purchase amount multiplied by a repayment factor and rounded down to the nearest penny (repayment factors: .08333 for 12 month, .05556 for 18 month, .04167 for 24 month, .02778 for 36 month, .02500 for 40 month, .02083 for 48 month) Last payment may vary due to rounding. Total amount of payments will not exceed eligible purchase amount if payments are made on time. Other transactions and fees affect overall minimum payment amount. Advertised payment amount, if any, is an estimate and may change once taxes, delivery or other charges are added. Limited time offer. Regular account terms apply to non-promo purchases. If your account becomes 60 days past due your promotional offer will be revoked and any remaining balance will be placed on the standard Purchase APR. Standard Purchase APR: 29.99%. Minimum interest charge: $1. Prior purchases excluded. Account must be in good standing. Subject to credit approval. Samsung Financing account issued by TD Bank,<span>&nbsp;</span>N.A..<br/><br/>
+<sup style="line-height: 0px;">4</sup>Payment options are offered by Affirm, are subject to an eligibility check, and may not be available in all states. Options depend on your purchase amount, and a down payment may be required. California residents: Affirm Loan Services, LLC is licensed by the Department of Business Oversight. Loans are made or arranged pursuant to California Financing Law license<span>&nbsp;</span>60DBO-111681.<br/><br/>
+			
+<sup style="line-height: 0px;">5</sup>Get up to $250 towards installation services with the pre-order of the 77&Prime; S95C model. Limited time offer valid from 2/7 - 2/20/23, while supplies<span>&nbsp;</span>last.<br/><br/>			
+
+If you no longer wish to receive email from Samsung, click<span>&nbsp;</span>unsubscribe.<br /><br />     
+
+<%@ include view='PVIEW27' %>   
+Samsung Electronics America, Inc. Samsung is a registered trademark of Samsung Electronics Co., Ltd. Use only in accordance with law. Other company and product names mentioned may be trademarks of their respective owners. Screen images simulated. Actual appearances may<span>&nbsp;</span>vary.
+<%@ include view='PVIEW25' %>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Email Footer : END --> 
+		 
+
+  </div>
+</center>
+</body>
+</html>
